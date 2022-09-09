@@ -10,7 +10,7 @@
 <body>
     <header>
     <img src ="img/livraria-coreia-natal-2.png" > 
-    <h1> <i> Livros Online</i></h1>
+    <h1> <i> Vitrine do Livro</i></h1>
     <ul>
     <li> <a href = "#"><img src="img/home.png"> Home </a> </li>
     <li> <a href = "#"><img src="img/conta.jpg"> Conta </a> </li>
@@ -18,9 +18,67 @@
     <li> <img src="img/lupa.png"> <input placeholder="Pesquisa" type="text"></li>
     </ul>
         
+   
    </header>
+
    <main>
-    <input placeholder="casdatro" type="text">
-   </main>
+    <form action="/pagina-processa-dados-do-form" method="post">
+        <h1> Login Usuário</h1>
+        <div>
+            <label for="nome">Nome Usuário:</label>
+            <input type="text" id="nome" placeholder="digite seu nome " required/>
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder = "digite seu email" required />
+        </div>
+        <button> Enviar</button>
+
+    </form>
+    <form action="/pagina-processa-dados-do-form" method="post">
+        <h1>Login Servidor</h1>
+        <div>
+            <label for="nome">Nome Servidor:</label>
+            <input type="text" id="nome" placeholder="digite seu nome" required />
+        </div>
+        <div>
+            <label for="Matrícula"> Matrícula</label>
+            <input type="text" id="Matrícula" placeholder="digite sua matrícula" required/>
+        </div>
+        <button> Enviar</button>
+
+    </form>
+    <form action="/pagina-processa-dados-do-form" method="post">
+        <h1>cadastre -se!</h1>
+        <div>
+            <label for="firstname"> Primeiro nome </label>
+            <input type="text" id="firstname" name="firstname" placeholder="digite seu nome" required />
+        </div>
+        <div>
+            <label for="firstname"> Sobrenome </label>
+            <input type="text" id="firstname" placeholder="digite o seu Sobrenome" required/>
+        </div>
+        <div>
+            <label for="email"> email </label>
+            <input type="email" id="firstname" name = "email" placeholder="digite seu email" required/>
+        </div>
+        <div>
+            <label for="number"> celular </label>
+            <input type="tel" id="number" name = "number" placeholder="(xx) xxxxx-xxxx" required/>
+        </div>
+        <div>
+            <label for="password"> senha </label>
+            <input type="password" id="password" name = "password" placeholder="digite sua senha" required/>
+        </div>
+        <div>
+            <label for="confirmpassword"> confirme sua senha </label>
+            <input type="confirmpassword" id="confirmpassword" name = "confirmpassword" placeholder="confirme sua senha" required/>
+        </div>
+        <button> Confirmar</button>
+
+    </form>
+
+     
+    </main>
 </body>
 </html>

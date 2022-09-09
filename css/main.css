@@ -53,3 +53,14 @@ header ul li img{
 header ul li a{
     text-decoration: none;
 }
+form{
+    margin: 0 auto;
+    width: 400px;
+    
+}
+label{
+    display:inline-block;
+    width: 90px;
+    text-align: right;
+
+}
