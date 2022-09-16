@@ -96,3 +96,7 @@ main::after {
     justify-content: space-between;
     align-items: center;
   }
+.card a{
+    
+    text-decoration: none;
+}
