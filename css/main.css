@@ -101,19 +101,23 @@ main::after {
     text-decoration: none;
 }
 
-.romance{
+.categorias{
     display: flex;
     justify-content: space-around;
-    padding: 10px 20 px;
+    padding: 10px 20px;
     margin: 5px;
+    justify-content: center;
     
 }
-.primeira img{
-    width: 200px;
+
+.categorias div{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items:center;
+    max-width: 400px;
 }
-.segunda img{
+
+.categorias div img{
     width: 200px;
-}
-.terceira img {
-   width: 200px;
 }
