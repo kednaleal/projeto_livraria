@@ -15,8 +15,14 @@
             <li> <a href="index.html"><img src="img/home.png"> Home </a> </li>
             <li> <a href="cadastro.html"><img src="img/conta.jpg"> Conta </a> </li>
             <li> <a href="catalogo.html"><img src="img/catalogo.jpg"> Catálogo </a> </li>
-            <li> <img src="img/lupa.png"> <input placeholder="Pesquisa" type="text"></li>
-        </ul>
+            <li>
+            <form>
+                <input id= "procura" placeholder="Pesquisa" type="text" >
+                <button id="pesquisa" type="button" action="https://www.googleapis.com/books/v1/volumes?q=o+tesouro perdido&callback=handleResponse">Pesquisar</button>
+                
+            </form>
+            </li>
+            </ul>
     </header>
 
     <main class="categorias">
@@ -50,5 +56,6 @@
         </div>
 
     </main>
+    <script src="js/script.js"></script>
 </body>
 </html>
