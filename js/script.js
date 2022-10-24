@@ -1,6 +1,7 @@
 const btnPesquisa = document.getElementById('pesquisa')
 const  txtprocura =  document.getElementById('procura')
 const  livros =  document.getElementById('livros')
+const  buscar =  document.getElementById('buscar')
 
 
 btnPesquisa.addEventListener('click', async () => {
