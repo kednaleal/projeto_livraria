@@ -121,3 +121,9 @@ main::after {
 .categorias div img{
     width: 200px;
 }
+
+.PrincipalBusca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
